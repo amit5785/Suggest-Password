@@ -104,9 +104,9 @@ window.addEventListener("keyup",(e)=>{
     }
     else if((e.key=="c" || e.key=="C") && flag==true)
     {
-        flag=false;
         copyEl.click();
     }
+    flag=false;
 })
 
 
